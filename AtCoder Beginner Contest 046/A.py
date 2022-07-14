@@ -1,0 +1,6 @@
+a, b, c = map(int, input().split(" "))
+colors = set()
+colors.add(a)
+colors.add(b)
+colors.add(c)
+print(len(colors))
