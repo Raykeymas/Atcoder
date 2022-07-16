@@ -5,3 +5,4 @@ for i in range(n):
     ans += k
   else:
     ans *= k - 1
+print(ans)
