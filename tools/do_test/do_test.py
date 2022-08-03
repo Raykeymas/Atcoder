@@ -3,6 +3,7 @@
 import argparse
 import time
 import subprocess
+import os
 
 
 def do(input_text, file):
@@ -19,20 +20,15 @@ if __name__ == "__main__":
 
   parser = argparse.ArgumentParser(description="このプログラムはコードのテストを自動的に実行するためのものです")
   parser.add_argument("file", help="テストしたいコードのパスを指定してください")
-  parser.add_argument("testcase", help="テストケースが記載されたファイルのパスを指定してください")
 
   args = parser.parse_args()
   file = args.file
-  testcase = args.testcase
   if file is None:
     print("テストしたいコードのファイルを指定してください")
     exit(0)
-  elif testcase is None:
-    print("テストケースのファイルを指定してください")
-    exit(0)
 
   testcases = []
-  with open(testcase, "r", encoding="utf-8") as f:
+  with open(os.path.join(os.path.dirname(file), os.path.basename(file)[0:1].upper() + "_test.txt"), "r", encoding="utf-8") as f:
     data = f.read()
     testcases = data.split("test_case\n")
     # TODO 改善
