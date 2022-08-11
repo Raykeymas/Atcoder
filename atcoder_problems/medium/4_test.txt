@@ -1,0 +1,8 @@
+test_case
+abaababaab
+test_case
+xxxx
+test_case
+abcabcabcabc
+test_case
+akasakaakasakasakaakas

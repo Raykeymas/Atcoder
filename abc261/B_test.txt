@@ -1,0 +1,10 @@
+test_case
+4
+-WWW
+L-DD
+LD-W
+LDW-
+test_case
+2
+-D
+D-
