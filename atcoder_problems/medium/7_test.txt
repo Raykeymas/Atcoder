@@ -1,0 +1,9 @@
+test_case
+6
+aabbca
+test_case
+10
+aaaaaaaaaa
+test_case
+45
+tgxgdqkyjzhyputjjtllptdfxocrylqfqjynmfbfucbir
