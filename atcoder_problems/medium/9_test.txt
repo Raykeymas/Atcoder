@@ -1,0 +1,10 @@
+test_case
+7 5 1
+test_case
+2 2 1
+test_case
+1 100 97
+test_case
+40 98 58
+test_case
+77 42 36
