@@ -28,7 +28,7 @@ if __name__ == "__main__":
     exit(0)
 
   testcases = []
-  with open(os.path.join(os.path.dirname(file), os.path.basename(file)[0:1].upper() + "_test.txt"), "r", encoding="utf-8") as f:
+  with open(os.path.join(os.path.dirname(file), os.path.splitext(os.path.basename(file))[0].upper() + "_test.txt"), "r", encoding="utf-8") as f:
     data = f.read()
     testcases = data.split("test_case\n")
     # TODO 改善
