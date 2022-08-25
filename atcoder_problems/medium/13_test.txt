@@ -1,0 +1,11 @@
+test_case
+2
+3 1 2
+6 1 1
+test_case
+1
+2 100 100
+test_case
+2
+5 1 1
+100 1 1
