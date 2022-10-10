@@ -1,0 +1,15 @@
+test_case
+3
+5
+10
+15
+test_case
+3
+10
+10
+15
+test_case
+3
+10
+20
+30
