@@ -1,0 +1,8 @@
+test_case
+2048 2
+test_case
+1 15
+test_case
+999 3
+test_case
+314159265358979 12
